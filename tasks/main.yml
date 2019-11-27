@@ -1,0 +1,20 @@
+---
+# Requirements
+- import_tasks: requirements.yml
+  tags:
+    - manala_ohmyzsh
+
+# Install
+- import_tasks: install.yml
+  tags:
+    - manala_ohmyzsh
+
+# Themes
+- import_tasks: themes.yml
+  tags:
+    - manala_ohmyzsh
+
+# Users
+- import_tasks: users.yml
+  tags:
+    - manala_ohmyzsh
