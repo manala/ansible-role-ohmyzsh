@@ -16,8 +16,6 @@
     - block:
         - import_role:
             name: manala.ohmyzsh
-          vars:
-            manala_ohmyzsh_dir: tmp/install
       always:
         - name: Goss
           command: >
